@@ -118,7 +118,85 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="부대" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\manu\부대.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="김치전2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\manu\김치전.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="김치전" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\manu\김치전.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="부대1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\manu\부대.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="갈비탕3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\manu\갈비탕.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="김치찌개" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\manu\김치찌개.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="설렁탕" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\manu\설렁탕.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="김치전1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\manu\김치전.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="된장찌게1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\manu\된장찌게.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="불고기1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\manu\불고기.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="김치찌개1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\manu\김치찌개.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="설렁탕1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\manu\설렁탕.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="순두부1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\manu\순두부.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="파전" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\manu\파전.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="갈비찜1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\manu\갈비찜.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="갈비탕" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\manu\갈비탕.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="된장찌게2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\manu\된장찌게.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="된장찌게" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\manu\된장찌게.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="김치찌개2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\manu\김치찌개.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="갈비찜2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\manu\갈비찜.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="갈비찜" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\manu\갈비찜.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="갈비탕2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\manu\갈비탕.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="순두부" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\manu\순두부.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="불고기" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\manu\불고기.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="1920x1080_lights-Iceland-mountain-sea-night" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1920x1080_lights-Iceland-mountain-sea-night.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="갈비탕1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\manu\갈비탕.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="파전1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\manu\파전.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

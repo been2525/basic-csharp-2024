@@ -344,5 +344,7 @@ cs01_hello_csharp    - 다양한 분야에서 사용 중
     - 특징
     - 배운점
 ### 1일차
-- 만들 내용구상
+- 토대 완성밑 내용 구상
+
+<img src = "https://raw.githubusercontent.com/been2525/basic-csharp-2024/main/images/1일차.png" width = "700">
 
