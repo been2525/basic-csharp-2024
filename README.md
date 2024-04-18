@@ -318,13 +318,31 @@ cs01_hello_csharp    - 다양한 분야에서 사용 중
 
 ## 6일차
 - 예제 프로젝트
-    - 윈도우 탐색기 앱
-    - 도서관리 앱 with SQL Server
-    - MordernUI 앱
-    - 국가교통정보센터 CCTV뷰앱
-    - IoT Dummy 앱 with SQL Server
+    - 윈도우 탐색기 앱(컨트롤학습)
+        - MtExplorer 프로젝트 생성
+        - 아이콘검색, png 2 ico 구글링 웹사이트
 
-- WPF
+        ![중간결과](https://raw.githubusercontent.com/been2525/basic-csharp-2024/main/images/cs005.png)
 
-## 개인 포토폴리오
-- 
+        - 미적용 - 컨텍스트메뉴 보기 기능, 더블클릭 프로그램 실행
+
+
+## 7일차
+- 토이프로젝트
+    - 윈도우 탐색기 앱 종료      
+    - 도서관리 앱 with SQL Server(Base)
+    - MordernUI 앱(UI 디자인)
+    - 국가교통정보센터 CCTV뷰앱(OpenAPI, NuGet dll, Network)
+    - IoT Dummy 앱 with SQL Server(IoT, DB)
+
+## 개인 토이프로젝트
+- 키오스크
+    - 기능
+        - 첫화면 메뉴 띄우기
+        - 선택시 밑에 메뉴 적히기 
+        - 그리고 옆에 결제버튼 있기
+    - 특징
+    - 배운점
+### 1일차
+- 만들 내용구상
+
