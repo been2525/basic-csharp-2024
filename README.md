@@ -332,6 +332,8 @@ cs01_hello_csharp    - 다양한 분야에서 사용 중
     - 윈도우 탐색기 앱 종료
         - 실행결과
 
+        https://github.com/been2525/basic-csharp-2024/assets/130003854/ff9bc3e9-76c0-46a9-b529-2456a9551476
+
 
 
 
