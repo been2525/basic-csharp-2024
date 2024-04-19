@@ -335,9 +335,15 @@ cs01_hello_csharp    - 다양한 분야에서 사용 중
         https://github.com/been2525/basic-csharp-2024/assets/130003854/ff9bc3e9-76c0-46a9-b529-2456a9551476
 
 
-
-
     - 도서관리 앱 with SQL Server(Base) MordernUI 앱(NuGet패키지)
+    ```cs
+    // 값형식 변수는 null
+    // 값형식 변수에 null값울 넣을 수 있도록 만들어준 기능 Nullable. 변수명 뒤에 ?만 추가할 것!
+    int? a = null;
+    double? b = null;
+    float? c = null;
+    ```
+        - 로그인 패스워드 암호화 미구현
 
 ## 8일차
 - 토이 프로젝트
