@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Data.SqlClient;
+using System.Security.Cryptography;
+using System.Text;
 using System.Windows.Forms;
 using MetroFramework.Forms;
 
@@ -62,6 +64,7 @@ namespace NewBookRentalShopApp
         // 로그인 DB 처리 시작!!
         private bool LoginProcess()
         {
+            var md5Hash = MD5.Create();
             string userId = TxtUserId.Text; // 현재 DB로 넘기는 값
             string password = TxtPassword.Text;
             string chkUserId = string.Empty; // DB에서 넘어온 값
@@ -90,7 +93,7 @@ namespace NewBookRentalShopApp
                 SqlCommand cmd = new SqlCommand(query, conn);
                 // @userId, @password 파라미터 할당
                 SqlParameter prmUserId = new SqlParameter("@userId", userId);
-                SqlParameter prmPassword = new SqlParameter("Password", password);
+                SqlParameter prmPassword = new SqlParameter("@password", GetMd5Hash(md5Hash, password));
                 cmd.Parameters.Add(prmUserId);
                 cmd.Parameters.Add(prmPassword);
 
@@ -127,5 +130,20 @@ namespace NewBookRentalShopApp
                 TxtPassword.Focus(); // 패스워드로 포커스 이동
             }
         }
+
+        // MD5 해시 알고리즘 암호화
+        // 1234 -> 01011011 -> 110010101101011 -> x65xAEx11..
+        string GetMd5Hash(MD5 md5Hash, string input)
+        {
+            // 입력문자열을 byte배열로 변환한 뒤 MD5 해시 처리
+            byte[] data = md5Hash.ComputeHash(Encoding.UTF8.GetBytes(input));
+            StringBuilder builder = new StringBuilder(); // 문자열으 좀더 쉽게 쓰게 만들어주는 클래스
+            for (int i = 0; i < data.Length; i++)
+            {
+                builder.Append(data[i].ToString("x2")); //16진수 문자로 각 글자를 변환
+            }
+            return builder.ToString();
+        }
+
     }
 }
