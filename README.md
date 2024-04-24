@@ -367,7 +367,9 @@ cs01_hello_csharp    - 다양한 분야에서 사용 중
         - 대출관리
         - 이 프로그램은 ....
         
-### 나머지
+        ![책대여프로그램](https://raw.githubusercontent.com/been2525/basic-csharp-2024/main/images/cs006.png)
+
+### 나머지(WPF/미니프로젝트 시간에 다시)
 - Peding
     - IoT Dummy 앱 with SQL Server(IoT, DB)
     - 국가교통정보센터 CCTV뷰앱(OpenAPI, NuGet dll, Network, UI디자인, 비동기메서드)
