@@ -28,41 +28,49 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.BtnPay = new MetroFramework.Controls.MetroButton();
             this.BtnCancel = new MetroFramework.Controls.MetroButton();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.LbPrice3 = new System.Windows.Forms.Label();
+            this.LbPrice4 = new System.Windows.Forms.Label();
+            this.LbPrice8 = new System.Windows.Forms.Label();
+            this.LbPrice9 = new System.Windows.Forms.Label();
+            this.LbPrice7 = new System.Windows.Forms.Label();
+            this.LbPrice5 = new System.Windows.Forms.Label();
+            this.LbPrice6 = new System.Windows.Forms.Label();
+            this.LbPrice2 = new System.Windows.Forms.Label();
+            this.LbPrice1 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.LbOrder = new System.Windows.Forms.Label();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // BtnPay
@@ -73,6 +81,7 @@
             this.BtnPay.TabIndex = 0;
             this.BtnPay.Text = "결제";
             this.BtnPay.UseSelectable = true;
+            this.BtnPay.Click += new System.EventHandler(this.BtnPay_Click);
             // 
             // BtnCancel
             // 
@@ -82,6 +91,7 @@
             this.BtnCancel.TabIndex = 1;
             this.BtnCancel.Text = "취소";
             this.BtnCancel.UseSelectable = true;
+            this.BtnCancel.Click += new System.EventHandler(this.BtnCancel_Click);
             // 
             // splitContainer1
             // 
@@ -91,15 +101,15 @@
             // 
             // splitContainer1.Panel1
             // 
-            this.splitContainer1.Panel1.Controls.Add(this.label17);
-            this.splitContainer1.Panel1.Controls.Add(this.label15);
-            this.splitContainer1.Panel1.Controls.Add(this.label13);
-            this.splitContainer1.Panel1.Controls.Add(this.label11);
-            this.splitContainer1.Panel1.Controls.Add(this.label9);
-            this.splitContainer1.Panel1.Controls.Add(this.label7);
-            this.splitContainer1.Panel1.Controls.Add(this.label5);
-            this.splitContainer1.Panel1.Controls.Add(this.label3);
-            this.splitContainer1.Panel1.Controls.Add(this.label1);
+            this.splitContainer1.Panel1.Controls.Add(this.LbPrice3);
+            this.splitContainer1.Panel1.Controls.Add(this.LbPrice4);
+            this.splitContainer1.Panel1.Controls.Add(this.LbPrice8);
+            this.splitContainer1.Panel1.Controls.Add(this.LbPrice9);
+            this.splitContainer1.Panel1.Controls.Add(this.LbPrice7);
+            this.splitContainer1.Panel1.Controls.Add(this.LbPrice5);
+            this.splitContainer1.Panel1.Controls.Add(this.LbPrice6);
+            this.splitContainer1.Panel1.Controls.Add(this.LbPrice2);
+            this.splitContainer1.Panel1.Controls.Add(this.LbPrice1);
             this.splitContainer1.Panel1.Controls.Add(this.pictureBox5);
             this.splitContainer1.Panel1.Controls.Add(this.pictureBox9);
             this.splitContainer1.Panel1.Controls.Add(this.pictureBox3);
@@ -112,164 +122,241 @@
             // 
             // splitContainer1.Panel2
             // 
+            this.splitContainer1.Panel2.Controls.Add(this.dataGridView1);
+            this.splitContainer1.Panel2.Controls.Add(this.LbOrder);
             this.splitContainer1.Panel2.Controls.Add(this.BtnCancel);
             this.splitContainer1.Panel2.Controls.Add(this.BtnPay);
             this.splitContainer1.Size = new System.Drawing.Size(760, 371);
             this.splitContainer1.SplitterDistance = 530;
             this.splitContainer1.TabIndex = 0;
             // 
-            // pictureBox1
+            // LbPrice3
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(25, 8);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(127, 83);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.LbPrice3.AutoSize = true;
+            this.LbPrice3.Location = new System.Drawing.Point(410, 102);
+            this.LbPrice3.Name = "LbPrice3";
+            this.LbPrice3.Size = new System.Drawing.Size(41, 12);
+            this.LbPrice3.TabIndex = 1;
+            this.LbPrice3.Text = "1500원";
             // 
-            // pictureBox2
+            // LbPrice4
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(197, 8);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(134, 83);
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
+            this.LbPrice4.AutoSize = true;
+            this.LbPrice4.Location = new System.Drawing.Point(65, 227);
+            this.LbPrice4.Name = "LbPrice4";
+            this.LbPrice4.Size = new System.Drawing.Size(47, 12);
+            this.LbPrice4.TabIndex = 1;
+            this.LbPrice4.Text = "18000원";
             // 
-            // pictureBox3
+            // LbPrice8
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(365, 8);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(137, 83);
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
+            this.LbPrice8.AutoSize = true;
+            this.LbPrice8.Location = new System.Drawing.Point(244, 345);
+            this.LbPrice8.Name = "LbPrice8";
+            this.LbPrice8.Size = new System.Drawing.Size(35, 12);
+            this.LbPrice8.TabIndex = 1;
+            this.LbPrice8.Text = "500원";
             // 
-            // pictureBox4
+            // LbPrice9
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(25, 132);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(127, 86);
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
+            this.LbPrice9.AutoSize = true;
+            this.LbPrice9.Location = new System.Drawing.Point(410, 345);
+            this.LbPrice9.Name = "LbPrice9";
+            this.LbPrice9.Size = new System.Drawing.Size(41, 12);
+            this.LbPrice9.TabIndex = 1;
+            this.LbPrice9.Text = "2000원";
+            // 
+            // LbPrice7
+            // 
+            this.LbPrice7.AutoSize = true;
+            this.LbPrice7.Location = new System.Drawing.Point(65, 347);
+            this.LbPrice7.Name = "LbPrice7";
+            this.LbPrice7.Size = new System.Drawing.Size(41, 12);
+            this.LbPrice7.TabIndex = 1;
+            this.LbPrice7.Text = "1500원";
+            // 
+            // LbPrice5
+            // 
+            this.LbPrice5.AutoSize = true;
+            this.LbPrice5.Location = new System.Drawing.Point(239, 227);
+            this.LbPrice5.Name = "LbPrice5";
+            this.LbPrice5.Size = new System.Drawing.Size(47, 12);
+            this.LbPrice5.TabIndex = 1;
+            this.LbPrice5.Text = "21000원";
+            // 
+            // LbPrice6
+            // 
+            this.LbPrice6.AutoSize = true;
+            this.LbPrice6.Location = new System.Drawing.Point(410, 227);
+            this.LbPrice6.Name = "LbPrice6";
+            this.LbPrice6.Size = new System.Drawing.Size(41, 12);
+            this.LbPrice6.TabIndex = 1;
+            this.LbPrice6.Text = "8000원";
+            // 
+            // LbPrice2
+            // 
+            this.LbPrice2.AutoSize = true;
+            this.LbPrice2.Location = new System.Drawing.Point(239, 102);
+            this.LbPrice2.Name = "LbPrice2";
+            this.LbPrice2.Size = new System.Drawing.Size(41, 12);
+            this.LbPrice2.TabIndex = 1;
+            this.LbPrice2.Text = "8000원";
+            // 
+            // LbPrice1
+            // 
+            this.LbPrice1.AutoSize = true;
+            this.LbPrice1.Location = new System.Drawing.Point(65, 102);
+            this.LbPrice1.Name = "LbPrice1";
+            this.LbPrice1.Size = new System.Drawing.Size(41, 12);
+            this.LbPrice1.TabIndex = 1;
+            this.LbPrice1.Text = "7000원";
             // 
             // pictureBox5
             // 
+            this.pictureBox5.Image = global::POSprograms.Properties.Resources.pasta;
             this.pictureBox5.Location = new System.Drawing.Point(365, 132);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(137, 86);
             this.pictureBox5.TabIndex = 0;
             this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Location = new System.Drawing.Point(197, 132);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(134, 86);
-            this.pictureBox6.TabIndex = 0;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Location = new System.Drawing.Point(25, 249);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(127, 87);
-            this.pictureBox7.TabIndex = 0;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Location = new System.Drawing.Point(197, 249);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(131, 87);
-            this.pictureBox8.TabIndex = 0;
-            this.pictureBox8.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // pictureBox9
             // 
+            this.pictureBox9.Image = global::POSprograms.Properties.Resources.fried;
             this.pictureBox9.Location = new System.Drawing.Point(365, 249);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(137, 87);
             this.pictureBox9.TabIndex = 0;
             this.pictureBox9.TabStop = false;
+            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
-            // label1
+            // pictureBox3
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(32, 105);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 12);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
+            this.pictureBox3.Image = global::POSprograms.Properties.Resources.icecream;
+            this.pictureBox3.Location = new System.Drawing.Point(365, 8);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(137, 83);
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
-            // label3
+            // pictureBox4
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(220, 105);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 12);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "label1";
+            this.pictureBox4.Image = global::POSprograms.Properties.Resources.chicken;
+            this.pictureBox4.Location = new System.Drawing.Point(25, 132);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(127, 86);
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
-            // label5
+            // pictureBox6
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(383, 227);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(38, 12);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "label1";
+            this.pictureBox6.Image = global::POSprograms.Properties.Resources.pizza;
+            this.pictureBox6.Location = new System.Drawing.Point(197, 132);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(134, 86);
+            this.pictureBox6.TabIndex = 0;
+            this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
-            // label7
+            // pictureBox8
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(220, 227);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(38, 12);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "label1";
+            this.pictureBox8.Image = global::POSprograms.Properties.Resources.source;
+            this.pictureBox8.Location = new System.Drawing.Point(197, 249);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(131, 87);
+            this.pictureBox8.TabIndex = 0;
+            this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
-            // label9
+            // pictureBox2
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(32, 345);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(38, 12);
-            this.label9.TabIndex = 1;
-            this.label9.Text = "label1";
+            this.pictureBox2.Image = global::POSprograms.Properties.Resources.pasta2;
+            this.pictureBox2.Location = new System.Drawing.Point(197, 8);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(134, 83);
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // label11
+            // pictureBox7
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(383, 345);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(38, 12);
-            this.label11.TabIndex = 1;
-            this.label11.Text = "label1";
+            this.pictureBox7.Image = global::POSprograms.Properties.Resources.juice1;
+            this.pictureBox7.Location = new System.Drawing.Point(25, 249);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(127, 87);
+            this.pictureBox7.TabIndex = 0;
+            this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
-            // label13
+            // pictureBox1
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(220, 345);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(38, 12);
-            this.label13.TabIndex = 1;
-            this.label13.Text = "label1";
+            this.pictureBox1.Image = global::POSprograms.Properties.Resources.hamburger2;
+            this.pictureBox1.Location = new System.Drawing.Point(25, 8);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(127, 83);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // label15
+            // dataGridView1
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(32, 227);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(38, 12);
-            this.label15.TabIndex = 1;
-            this.label15.Text = "label1";
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("나눔고딕코딩", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
+            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3});
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("나눔고딕코딩", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridView1.Location = new System.Drawing.Point(5, 44);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 23;
+            this.dataGridView1.Size = new System.Drawing.Size(217, 256);
+            this.dataGridView1.TabIndex = 4;
             // 
-            // label17
+            // LbOrder
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(383, 105);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(38, 12);
-            this.label17.TabIndex = 1;
-            this.label17.Text = "label1";
+            this.LbOrder.AutoSize = true;
+            this.LbOrder.Font = new System.Drawing.Font("나눔고딕코딩", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.LbOrder.Location = new System.Drawing.Point(10, 9);
+            this.LbOrder.Name = "LbOrder";
+            this.LbOrder.Size = new System.Drawing.Size(60, 21);
+            this.LbOrder.TabIndex = 3;
+            this.LbOrder.Text = "Order";
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "음식";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            this.Column1.Width = 70;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "가격";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            this.Column2.Width = 60;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "개수";
+            this.Column3.Name = "Column3";
+            this.Column3.Width = 40;
             // 
             // FrmMain
             // 
@@ -283,17 +370,19 @@
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
             this.splitContainer1.Panel2.ResumeLayout(false);
+            this.splitContainer1.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -312,15 +401,20 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label LbPrice3;
+        private System.Windows.Forms.Label LbPrice4;
+        private System.Windows.Forms.Label LbPrice8;
+        private System.Windows.Forms.Label LbPrice9;
+        private System.Windows.Forms.Label LbPrice7;
+        private System.Windows.Forms.Label LbPrice5;
+        private System.Windows.Forms.Label LbPrice6;
+        private System.Windows.Forms.Label LbPrice2;
+        private System.Windows.Forms.Label LbPrice1;
+        private System.Windows.Forms.Label LbOrder;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewComboBoxColumn Column3;
     }
 }
 

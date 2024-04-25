@@ -378,13 +378,22 @@ cs01_hello_csharp    - 다양한 분야에서 사용 중
 ## 개인 토이프로젝트
 - 키오스크
     - 기능
-        - 첫화면 메뉴 띄우기
-        - 선택시 밑에 메뉴 적히기 
-        - 그리고 옆에 결제버튼 있기
+        - 선택시 오른쪽에 메뉴 적히기 
+        - 메뉴옆 개수 에서 선택가능
+        - 그리고 밑에 결제버튼 있기
+        - 결제버튼 누르면 결제되었습니다라는 알림 창과 확인 누르면 종료
+        - 취소 버튼 누르면 선택되었던 내용 초기화
     - 특징
     - 배운점
+        
+
 ### 1일차
-- 토대 완성밑 내용 구상
+- 토대 완성 및 내용 구성
 
 <img src = "https://raw.githubusercontent.com/been2525/basic-csharp-2024/main/images/1일차.png" width = "700">
+
+### 2일차
+- 토대 수정 및 내용 재구성
+
+<img src = "https://raw.githubusercontent.com/been2525/basic-csharp-2024/main/images/2일차.png" width = "700">
 

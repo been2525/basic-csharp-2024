@@ -74,6 +74,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -88,6 +89,48 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hamburger.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hamburger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hamburger1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\juice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\juice1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\source.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pasta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pasta2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fried.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icecream.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="recycle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="recycle-bin.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
